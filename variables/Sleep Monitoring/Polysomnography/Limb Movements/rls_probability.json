@@ -1,0 +1,6 @@
+{
+  "id": "rls_probability",
+  "display_name": "Probability of RLS",
+  "description": "Control= :rls_sleep_onset: = 1, 2, or 3 and :rls_disturbed_sleep: = 1 or 2; Probable= :rls_sleep_onset: = 4 or 5 and :rls_disturbed_sleep: = 3; Possible= all other combinations; Definite= :rls_sleep_onset: = 4 or 5 and :rls_disturbed_sleep: = 4 or 5",
+  "type": null
+}

@@ -1,0 +1,7 @@
+{
+  "id": "glucose",
+  "display_name": "Glucose level",
+  "description": "",
+  "type": null,
+  "units": "kilograms per meters squared (kg/m2)"
+}

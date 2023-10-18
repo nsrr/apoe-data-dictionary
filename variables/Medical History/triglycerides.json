@@ -1,0 +1,7 @@
+{
+  "id": "triglycerides",
+  "display_name": "Triglyceride level",
+  "description": "",
+  "type": null,
+  "units": "kilograms per meters squared (kg/m2)"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "rls_disturbed_sleep",
+  "display_name": "Frequency of RLS disturbed sleep",
+  "description": "",
+  "type": null,
+  "domain": "frequency"
+}

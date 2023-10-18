@@ -1,0 +1,7 @@
+{
+  "id": "diabetes",
+  "display_name": "Diagnosis of diabetes",
+  "description": "",
+  "type": null,
+  "domain": "no0yes1"
+}

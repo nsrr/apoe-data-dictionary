@@ -1,0 +1,8 @@
+{
+  "id": "odi3evindex",
+  "display_name": "Oxygen desaturation index: Oxygen desaturation with >= 3% desat per hour of sleep from type 1 polysomnography",
+  "description": "",
+  "type": null,
+  "units": "number of events per hour",
+  "calculation": "odi3evtotal/TST*100"
+}

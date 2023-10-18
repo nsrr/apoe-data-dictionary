@@ -1,0 +1,7 @@
+{
+  "id": "sysbp",
+  "display_name": "Systolic blood pressure",
+  "description": "",
+  "type": null,
+  "units": "millimeters of mercury (mmHg)"
+}

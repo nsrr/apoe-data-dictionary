@@ -1,0 +1,7 @@
+{
+  "id": "vldl",
+  "display_name": "VLDL level",
+  "description": "VLDL (very-low-density lipoprotein) level",
+  "type": null,
+  "units": "kilograms per meters squared (kg/m2)"
+}

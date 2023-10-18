@@ -1,0 +1,7 @@
+{
+  "id": "plmindex",
+  "display_name": "Periodic limb movement index from polysomnography",
+  "description": "",
+  "type": null,
+  "units": "number of events per hour"
+}

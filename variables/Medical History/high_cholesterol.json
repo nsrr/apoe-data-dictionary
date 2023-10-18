@@ -1,0 +1,7 @@
+{
+  "id": "high_cholesterol",
+  "display_name": "Diagnosis of high cholesterol",
+  "description": "",
+  "type": null,
+  "domain": "no0yes1"
+}

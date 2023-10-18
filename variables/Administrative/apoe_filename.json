@@ -1,0 +1,6 @@
+{
+  "id": "apoe_filename",
+  "display_name": "File stem of the polysomnography file (.edf)",
+  "description": "",
+  "type": null
+}

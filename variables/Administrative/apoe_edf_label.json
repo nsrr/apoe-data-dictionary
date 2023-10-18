@@ -1,0 +1,7 @@
+{
+  "id": "apoe_edf_label",
+  "display_name": "The EDF header's label entry",
+  "description": "This corresponds to the filestem and adds some redundancy to identifying the EDF file in case the filename was accidentally changed.",
+  "type": null,
+  "units": "APOE_ID"
+}

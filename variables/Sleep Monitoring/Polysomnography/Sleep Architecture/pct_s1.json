@@ -1,0 +1,7 @@
+{
+  "id": "pct_s1",
+  "display_name": "Percent of total sleep time (TST) in sleep stage 1 from type 1 polysomnography",
+  "description": "",
+  "type": null,
+  "units": "percent (%)"
+}

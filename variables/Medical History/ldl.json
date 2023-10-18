@@ -1,0 +1,7 @@
+{
+  "id": "ldl",
+  "display_name": "LDL level",
+  "description": "LDL (low-density lipoprotein) cholesterol",
+  "type": null,
+  "units": "kilograms per meters squared (kg/m2)"
+}
