@@ -2,6 +2,6 @@
   "id": "sysbp",
   "display_name": "Systolic blood pressure",
   "description": "",
-  "type": null,
+  "type": "numeric",
   "units": "millimeters of mercury (mmHg)"
 }

@@ -2,6 +2,6 @@
   "id": "hip_cm",
   "display_name": "Hip circumference",
   "description": "",
-  "type": null,
+  "type": "numeric",
   "units": "centimeters (cm)"
 }

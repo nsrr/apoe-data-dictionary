@@ -2,5 +2,5 @@
   "id": "dx_3rd",
   "display_name": "Tertiatry diagnosis",
   "description": "",
-  "type": null
+  "type": "string"
 }

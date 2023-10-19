@@ -2,6 +2,6 @@
   "id": "htn",
   "display_name": "Diagnosis of hypertension",
   "description": "",
-  "type": null,
+  "type": "choices",
   "domain": "no0yes1"
 }

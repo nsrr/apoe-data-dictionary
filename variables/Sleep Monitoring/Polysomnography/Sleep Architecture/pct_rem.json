@@ -2,6 +2,6 @@
   "id": "pct_rem",
   "display_name": "Percent of total sleep time (TST) in REM sleep from type 1 polysomnography",
   "description": "",
-  "type": null,
+  "type": "numeric",
   "units": "percent (%)"
 }

@@ -2,5 +2,5 @@
   "id": "dx_other",
   "display_name": "Diagnosis if \"Primary Diagnosis (dx_1st)\" is \"Other\"",
   "description": "",
-  "type": null
+  "type": "string"
 }

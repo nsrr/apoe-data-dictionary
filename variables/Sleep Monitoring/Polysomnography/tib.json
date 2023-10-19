@@ -1,7 +1,7 @@
 {
   "id": "tib",
-  "display_name": "Time in bed (TIB)",
+  "display_name": "Time in bed (TIB) from type 1 polysomnography",
   "description": "",
-  "type": null,
+  "type": "numeric",
   "units": "hours (hr)"
 }

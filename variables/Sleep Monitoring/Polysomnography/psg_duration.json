@@ -1,7 +1,7 @@
 {
-  "id": "psg duration",
+  "id": "psg_duration",
   "display_name": "Length of polysomnography recording",
   "description": "Leng of PSG recording in hours",
-  "type": null,
+  "type": "numeric",
   "units": "hours (hr)"
 }

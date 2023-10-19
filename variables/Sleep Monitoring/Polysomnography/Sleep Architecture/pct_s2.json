@@ -2,6 +2,6 @@
   "id": "pct_s2",
   "display_name": "Percent of total sleep time (TST) in sleep stage 2 from type 1 polysomnography",
   "description": "",
-  "type": null,
+  "type": "numeric",
   "units": "percent (%)"
 }

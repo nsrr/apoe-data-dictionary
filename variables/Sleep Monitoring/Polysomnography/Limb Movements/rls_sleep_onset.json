@@ -2,6 +2,6 @@
   "id": "rls_sleep_onset",
   "display_name": "Frequency of RLS symptoms while falling asleep",
   "description": "",
-  "type": null,
+  "type": "numeric",
   "domain": "frequency"
 }

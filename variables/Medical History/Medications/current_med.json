@@ -2,5 +2,5 @@
   "id": "current_med",
   "display_name": "Medication list at the time of evaluation",
   "description": "",
-  "type": null
+  "type": "string"
 }

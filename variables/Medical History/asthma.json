@@ -2,6 +2,6 @@
   "id": "asthma",
   "display_name": "Diagnosis of asthma",
   "description": "",
-  "type": null,
+  "type": "choices",
   "domain": "no0yes1"
 }

@@ -1,7 +1,7 @@
 {
   "id": "tst",
-  "display_name": "Total sleep time (TST)",
+  "display_name": "Total sleep time (TST) from type 1 polysomnography",
   "description": "",
-  "type": null,
+  "type": "numeric",
   "units": "hours (hr)"
 }

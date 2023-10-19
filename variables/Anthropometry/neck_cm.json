@@ -2,6 +2,6 @@
   "id": "neck_cm",
   "display_name": "Neck circumference",
   "description": "",
-  "type": null,
+  "type": "numeric",
   "units": "centimeters (cm)"
 }

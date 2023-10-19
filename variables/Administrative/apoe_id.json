@@ -2,5 +2,5 @@
   "id": "apoe_id",
   "display_name": "Unique identifier of the APoE participant",
   "description": "Unique identifier of the APoE participant.  ",
-  "type": null
+  "type": "string"
 }

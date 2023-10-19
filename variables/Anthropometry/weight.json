@@ -2,6 +2,6 @@
   "id": "weight",
   "display_name": "Weight",
   "description": "",
-  "type": null,
+  "type": "numeric",
   "units": "kilograms (kg)"
 }

@@ -2,6 +2,6 @@
   "id": "sao2_mean",
   "display_name": "Average level of oxygen saturation from type 1 polysomnography",
   "description": "",
-  "type": null,
+  "type": "numeric",
   "units": "percent (%)"
 }

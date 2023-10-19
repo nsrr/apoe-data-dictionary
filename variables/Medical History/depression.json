@@ -2,6 +2,6 @@
   "id": "depression",
   "display_name": "Diagnosis of depression",
   "description": "",
-  "type": null,
+  "type": "choices",
   "domain": "no0yes1"
 }

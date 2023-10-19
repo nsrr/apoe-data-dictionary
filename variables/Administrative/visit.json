@@ -1,6 +1,6 @@
 {
   "id": "visit",
-  "display_name": "administrative",
+  "display_name": "",
   "description": "",
-  "type": null
+  "type": "string"
 }

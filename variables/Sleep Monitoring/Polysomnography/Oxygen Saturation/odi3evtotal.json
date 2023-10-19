@@ -1,6 +1,6 @@
 {
   "id": "odi3evtotal",
-  "display_name": "Oxygen desaturation count: Oxygen desaturation with >= 3% desat per hour of sleep from type 1 polysomnography",
-  "description": "",
-  "type": null
+  "display_name": "Oxygen desaturation count",
+  "description": "Oxygen desaturation with >= 3% desat per hour of sleep from type 1 polysomnography",
+  "type": "numeric"
 }

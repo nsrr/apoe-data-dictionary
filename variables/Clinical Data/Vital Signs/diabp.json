@@ -2,6 +2,6 @@
   "id": "diabp",
   "display_name": "Diastolic blood pressure",
   "description": "",
-  "type": null,
+  "type": "numeric",
   "units": "millimeters of mercury (mmHg)"
 }

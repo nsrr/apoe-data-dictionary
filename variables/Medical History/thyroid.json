@@ -2,6 +2,6 @@
   "id": "thyroid",
   "display_name": "Diagnosis of thyroid problems",
   "description": "",
-  "type": null,
+  "type": "choices",
   "domain": "no0yes1"
 }

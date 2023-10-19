@@ -2,6 +2,6 @@
   "id": "height",
   "display_name": "Height",
   "description": "",
-  "type": null,
+  "type": "numeric",
   "units": "meters (m)"
 }
