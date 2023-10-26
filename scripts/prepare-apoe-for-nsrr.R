@@ -53,6 +53,9 @@ source$odi3evindex <- source$odi3evtotal/source$tst
 # add visit variable for NSRR display
 source$visit <- 1
 
+#fix ds_1st has 3 versions of other, and 2 versions of SDB
+source$dx_1st <- toupper(source$dx_1st)
+
 # write new dataset
 write.csv(source, paste("C:/Users/mkt27/apoe-data-dictionary/csvs/0.1.0.pre/apoe-dataset-",ver,".csv",sep=""), row.names=F,
           na = "")

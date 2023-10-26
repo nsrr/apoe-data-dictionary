@@ -1,0 +1,42 @@
+[
+  {
+    "value": "DPS",
+    "display_name": "Depression",
+    "description": ""
+  },
+  {
+    "value": "EDS",
+    "display_name": "Excessive Daytime Sleepiness",
+    "description": ""
+  },
+  {
+    "value": "INS",
+    "display_name": "Insomnia",
+    "description": ""
+  },
+  {
+    "value": "NARC",
+    "display_name": "Narcolepsy",
+    "description": ""
+  },
+  {
+    "value": "OTHER",
+    "display_name": "Other",
+    "description": ""
+  },
+  {
+    "value": "REMBD",
+    "display_name": "REM sleep behaviour disorder",
+    "description": ""
+  },
+  {
+    "value": "RLS",
+    "display_name": "Restless Leg Syndrome",
+    "description": ""
+  },
+  {
+    "value": "SDB",
+    "display_name": "Sleep-Disordered Breathing",
+    "description": ""
+  }
+]

@@ -3,5 +3,5 @@
   "display_name": "HDL level",
   "description": "HDL (high-density lipoprotein) cholesterol",
   "type": "numeric",
-  "units": "kilograms per meters squared (kg/m2)"
+  "units": "milligrams per deciliter (mg/dL)"
 }

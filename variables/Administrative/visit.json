@@ -2,5 +2,6 @@
   "id": "visit",
   "display_name": "",
   "description": "",
-  "type": "string"
+  "type": "choices",
+  "domain": "visit"
 }

@@ -3,5 +3,5 @@
   "display_name": "VLDL level",
   "description": "VLDL (very-low-density lipoprotein) level",
   "type": "numeric",
-  "units": "kilograms per meters squared (kg/m2)"
+  "units": "milligrams per deciliter (mg/dL)"
 }

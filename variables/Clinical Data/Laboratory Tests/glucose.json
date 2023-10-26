@@ -3,5 +3,5 @@
   "display_name": "Glucose level",
   "description": "",
   "type": "numeric",
-  "units": "kilograms per meters squared (kg/m2)"
+  "units": "milligrams per deciliter (mg/dL)"
 }

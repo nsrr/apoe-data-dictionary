@@ -2,5 +2,6 @@
   "id": "dx_1st",
   "display_name": "Primary diagnosis",
   "description": "",
-  "type": "string"
+  "type": "choices",
+  "domain": "dx_1"
 }

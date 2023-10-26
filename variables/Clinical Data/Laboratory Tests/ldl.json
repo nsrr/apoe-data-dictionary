@@ -3,5 +3,5 @@
   "display_name": "LDL level",
   "description": "LDL (low-density lipoprotein) cholesterol",
   "type": "numeric",
-  "units": "kilograms per meters squared (kg/m2)"
+  "units": "milligrams per deciliter (mg/dL)"
 }
