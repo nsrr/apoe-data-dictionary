@@ -57,8 +57,29 @@ source$visit <- 1
 source$dx_1st <- toupper(source$dx_1st)
 
 # write new dataset
-write.csv(source, paste("C:/Users/mkt27/apoe-data-dictionary/csvs/0.1.0.pre/apoe-dataset-",ver,".csv",sep=""), row.names=F,
+write.csv(source, paste("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/nsrr-prep/_releases/0.1.0.pre/apoe-dataset-",ver,".csv",sep=""), row.names=F,
           na = "")
+
+# create harmonized dataset:
+source_h <- source[,c("apoe_id","visit",
+                      "age", "gender", "bmi", 
+                      "tst", "sleep_efficiency", "pct_s1",
+                      "pct_s2", "pct_s3", "pct_rem", "tib")]
+colnames(source_h) <- c("apoe_id","visit",
+                        "nsrr_age", "nsrr_sex", "nsrr_bmi",
+                        "nsrr_tst_f1", "nsrr_ttleffsp_f1",
+                        "nsrr_pctdursp_s1",
+                        "nsrr_pctdursp_s2",
+                        "nsrr_pctdursp_s3",
+                        "nsrr_pctdursp_sr", "nsrr_ttlprdbd_f1")
+source_h$nsrr_age_gt89 <- factor(source_h$nsrr_age>89, 
+                                 levels=c(T, F),
+                                 labels=c("yes","no"))
+
+write.csv(source_h, paste("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/nsrr-prep/_releases/0.1.0.pre/apoe-harmonized-dataset-",ver,".csv",sep=""), row.names=F,
+          na = "")
+
+
 
 
 

@@ -1,7 +1,11 @@
 {
   "id": "rls_phenotype",
   "display_name": "Classification of RLS",
-  "description": "Unlikely for :rls_disturbed_sleep: = 1, 2, or 3 and :rls_disturbed_sleep: = 1 or 2; Likely for :rls_disturbed_sleep: =4 or 5 and :rls_disturbed_sleep: = 4 or 5",
+  "description": "",
   "type": "choices",
-  "domain": "rls"
+  "domain": "rls",
+  "labels": [
+    "Unlikely when :rls_disturbed_sleep: = 1, 2, or 3 and :rls_disturbed_sleep: = 1 or 2",
+    " Likely when :rls_disturbed_sleep: =4 or 5 and :rls_disturbed_sleep: = 4 or 5"
+  ]
 }
