@@ -3,5 +3,8 @@
   "display_name": "Frequency of RLS disturbed sleep",
   "description": "",
   "type": "choices",
-  "domain": "frequency"
+  "domain": "frequency",
+  "labels": [
+    "rls_plms"
+  ]
 }

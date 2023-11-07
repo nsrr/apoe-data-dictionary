@@ -1,7 +1,10 @@
 {
   "id": "pct_s3",
-  "display_name": "Percent of total sleep time (TST) in sleep stages 3 and 4 from type 1 polysomnography",
-  "description": "",
+  "display_name": "Percentage of stage 3 and 4 sleep among total sleep duration from type I polysomnography",
+  "description": "Conventionally, total sleep duration would be called total sleep time (TST).",
   "type": "numeric",
-  "units": "percent (%)"
+  "units": "percent (%)",
+  "labels": [
+    "pctdursp_s3_f1t1"
+  ]
 }

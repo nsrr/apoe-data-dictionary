@@ -1,6 +1,0 @@
-{
-  "id": "ess",
-  "display_name": "Epworth Sleepiness Scale total score",
-  "description": "This is an integer value with range from 0-24. The Epworth Sleepiness Scale assesses the daytime sleepiness of patients. Dr Murray W Johns owns the copyright in the ESS (Copyright © M.W.Johns 1990-1997). The official website is http://epworthsleepinessscale.com/. Algorithm: The ESS is computed by adding 8 individual items. If any item is missing then ESS is missing.",
-  "type": "integer"
-}

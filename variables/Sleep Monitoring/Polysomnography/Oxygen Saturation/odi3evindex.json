@@ -1,7 +1,11 @@
 {
   "id": "odi3evindex",
-  "display_name": "Oxygen desaturation index",
-  "description": "Oxygen desaturation with >= 3% desat per hour of sleep from type 1 polysomnography",
+  "display_name": "Oxygen Desaturation Index: Oxygen desaturation with >= 3% desat per hour of sleep from type I polysomnography",
+  "description": "",
   "type": "numeric",
-  "units": "number of events per hour"
+  "units": "number of events per hour",
+  "labels": [
+    "odi",
+    "phrnumds_dsge3_f1t1"
+  ]
 }

@@ -1,7 +1,10 @@
 {
   "id": "sao2_mean",
-  "display_name": "Average level of oxygen saturation from type 1 polysomnography",
+  "display_name": "Average oxygen saturation level during sleep from type I polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "percent (%)"
+  "units": "percent (%)",
+  "labels": [
+    "avglvlsa_f1t1"
+  ]
 }

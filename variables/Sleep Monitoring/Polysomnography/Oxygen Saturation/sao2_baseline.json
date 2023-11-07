@@ -1,7 +1,10 @@
 {
   "id": "sao2_baseline",
-  "display_name": "Baseline level of oxygen saturation from type 1 polysomnography",
+  "display_name": "Baseline level of oxygen saturation from type I polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "percent (%)"
+  "units": "percent (%)",
+  "labels": [
+    "baslvlsa_f1t1"
+  ]
 }

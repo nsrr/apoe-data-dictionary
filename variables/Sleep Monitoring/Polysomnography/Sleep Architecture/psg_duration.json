@@ -1,7 +1,10 @@
 {
   "id": "psg_duration",
-  "display_name": "Length of polysomnography recording",
+  "display_name": "Total period of recording from type I polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "hours (hr)"
+  "units": "hours (hr)",
+  "labels": [
+    "ttlprdrd_f1t1"
+  ]
 }

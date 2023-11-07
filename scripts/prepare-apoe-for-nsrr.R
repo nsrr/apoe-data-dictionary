@@ -71,7 +71,7 @@ colnames(source_h) <- c("apoe_id","visit",
                         "nsrr_pctdursp_s1",
                         "nsrr_pctdursp_s2",
                         "nsrr_pctdursp_s3",
-                        "nsrr_pctdursp_sr", "nsrr_ttlprdbd_f1")
+                        "nsrr_pctdursp_sr", "nsrr_tib_f1")
 source_h$nsrr_age_gt89 <- factor(source_h$nsrr_age>89, 
                                  levels=c(T, F),
                                  labels=c("yes","no"))

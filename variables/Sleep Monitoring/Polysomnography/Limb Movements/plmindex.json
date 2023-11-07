@@ -1,7 +1,10 @@
 {
   "id": "plmindex",
-  "display_name": "Periodic limb movement index from polysomnography",
+  "display_name": "Periodic limb movement index - Number of periodic limb movement per hour of sleep from type I polysomnography",
   "description": "",
   "type": "numeric",
-  "units": "number of events per hour"
+  "units": "number of events per hour",
+  "labels": [
+    "phrnumpl_f1t1"
+  ]
 }
