@@ -1,7 +1,7 @@
 {
   "id": "odi3evtotal",
   "display_name": "Total number of oxygen desaturation with >= 3% desat during sleep from type I polysomnography",
-  "description": "",
+  "description": "Derived using automated detection methods described in [Koch et al. 2017](https://pubmed.ncbi.nlm.nih.gov/29029253/).",
   "type": "numeric",
   "labels": [
     "ttlnumds_dsge3_f1t1"

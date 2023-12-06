@@ -8,7 +8,7 @@
 ver <- "0.1.0.pre"
 
 # import original data
-source <- readxl::read_excel("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/original/Dropbox (Partners HealthCare)/nsrr-apoe/ApoE_study_data.xlsx")
+source <- readxl::read_excel("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/original/ApoE_study_data.xlsx")
 
 # write new variable names
 newnames <-   c('apoe_id', 'apoe_edf_date',  'apoe_filename',

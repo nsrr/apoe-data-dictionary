@@ -1,11 +1,11 @@
-Apoe-data-dictionary Data Dictionary
+ApoE Data Dictionary
 ======================
 
-[![Build Status](https://travis-ci.com/<REPOSITORY>/apoe-data-dictionary-data-dictionary.svg?branch=master)](https://travis-ci.com/<REPOSITORY>/apoe-data-dictionary-data-dictionary)
+[![Build Status](https://app.travis-ci.com/nsrr/apoe-data-dictionary.svg?branch=main)](https://app.travis-ci.com/nsrr/apoe-data-dictionary)
 
 ### Exports
 
-The apoe-data-dictionary data dictionary can be exported to CSV by typing:
+The ApoE data dictionary can be exported to CSV by typing:
 
 ```
 spout export
@@ -18,7 +18,7 @@ dictionary.
 ### Testing
 
 The apoe-data-dictionary data dictionary is tested using the
-[Spout Gem](https://github.com/sleepepi/spout).
+[Spout Gem](https://github.com/nsrr/spout).
 
 Data dictionary tests can be run by typing:
 
@@ -43,4 +43,4 @@ approach for changing version numbers uses a variation on
 [Semantic Versioning](http://semver.org).
 
 A full list of changes for each version can be viewed in the
-[CHANGELOG](https://github.com/<REPOSITORY>/apoe-data-dictionary-data-dictionary/blob/master/CHANGELOG.md).
+[CHANGELOG](https://github.com/nsrr/apoe-data-dictionary/blob/main/CHANGELOG.md).

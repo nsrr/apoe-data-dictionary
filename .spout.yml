@@ -1,6 +1,8 @@
 slug: apoe
 visit: visit
-charts: []
+charts:
+- chart: gender
+  title: Gender
 webservers:
   - name: production
     url: https://sleepdata.org
