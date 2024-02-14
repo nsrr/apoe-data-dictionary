@@ -1,0 +1,7 @@
+{
+  "id": "dq0602_genotype",
+  "display_name": "Presence of HLA-DQB1*06:02 allele",
+  "description": "<a href=\"https://medlineplus.gov/genetics/gene/hla-dqb1/\" target=\"_blank\">Read more about the HLA-DQB1 gene at MedlinePlus</a>",
+  "type": "choices",
+  "domain": "no0yes1"
+}

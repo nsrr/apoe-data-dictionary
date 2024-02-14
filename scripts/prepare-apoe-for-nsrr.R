@@ -4,11 +4,24 @@
 #                                           #
 #-------------------------------------------#
 
+# install packages
+# install.packages("haven")
+# install.packages("dplyr")
+
+# load packages
+
+library(haven)
+library(dplyr)
+
 # set version
 ver <- "0.2.0.pre"
 
 # import original data
-source <- readxl::read_excel("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/original/ApoE_study_data.xlsx")
+source_pheno <- readxl::read_excel("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/original/ApoE_study_data.xlsx")
+source_geno <- readxl::read_excel("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/original/ApoE, ACE and DQ0602 typing.xlsx")
+
+# combine source data
+source <- left_join(source_pheno, source_geno, by=c("APOE_ID"), multiple = "first")
 
 # write new variable names
 newnames <-   c('apoe_id', 'apoe_edf_date',  'apoe_filename',
@@ -22,13 +35,14 @@ newnames <-   c('apoe_id', 'apoe_edf_date',  'apoe_filename',
                 'diabetes', 'gerd', 'plmindex', 'ess', 'rls_sleep_onset',
                 'rls_disturbed_sleep', 'rls_probability', 'rls_phenotype',
                 'dx_1st', 'dx_other','dx_2nd', 'dx_3rd','observations',
-                'current_med')
+                'current_med', 'dq0602_genotype', 'apoe_genotype', 
+                'ace_genotype')
 
 # view side-by-side to confirm appropriate line up
 cbind(colnames(source), newnames)
 
 # overwrite original variable names to new ones
-colnames(source) <-newnames
+colnames(source) <- newnames
 
 # Make rls_probability into a numeric factor to match the domain
 for(i in 1:length(source$rls_probability)){
@@ -57,7 +71,7 @@ source$visit <- 1
 source$dx_1st <- toupper(source$dx_1st)
 
 # write new dataset
-write.csv(source, paste("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/nsrr-prep/_releases/0.1.0/apoe-dataset-",ver,".csv",sep=""), row.names=F,
+write.csv(source, paste("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/nsrr-prep/_releases/0.2.0.pre/apoe-dataset-",ver,".csv",sep=""), row.names=F,
           na = "")
 
 # create harmonized dataset:
@@ -76,5 +90,5 @@ source_h$nsrr_age_gt89 <- factor(source_h$nsrr_age>89,
                                  levels=c(T, F),
                                  labels=c("yes","no"))
 
-write.csv(source_h, paste("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/nsrr-prep/_releases/0.1.0/apoe-harmonized-dataset-",ver,".csv",sep=""), row.names=F,
+write.csv(source_h, paste("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/nsrr-prep/_releases/0.2.0.pre/apoe-harmonized-dataset-",ver,".csv",sep=""), row.names=F,
           na = "")

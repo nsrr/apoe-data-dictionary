@@ -1,0 +1,7 @@
+{
+  "id": "apoe_genotype",
+  "display_name": "Apolipoprotein E (ApoE) genotype",
+  "description": "<a href=\"https://medlineplus.gov/genetics/gene/apoe/\" target=\"_blank\">Read more about the ApoE gene at MedlinePlus</a>",
+  "type": "choices",
+  "domain": "apoe_genotype"
+}

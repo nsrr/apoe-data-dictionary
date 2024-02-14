@@ -1,0 +1,7 @@
+{
+  "id": "ace_genotype",
+  "display_name": "Angiotensin-Converting Enzyme (ACE) genotype",
+  "description": "<a href=\"https://medlineplus.gov/genetics/gene/ace/\" target=\"_blank\">Read more about the ACE gene at MedlinePlus</a>",
+  "type": "choices",
+  "domain": "ace_genotype"
+}
