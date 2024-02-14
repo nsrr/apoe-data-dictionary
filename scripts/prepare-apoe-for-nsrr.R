@@ -5,7 +5,7 @@
 #-------------------------------------------#
 
 # set version
-ver <- "0.1.0"
+ver <- "0.2.0.pre"
 
 # import original data
 source <- readxl::read_excel("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/original/ApoE_study_data.xlsx")
@@ -78,8 +78,3 @@ source_h$nsrr_age_gt89 <- factor(source_h$nsrr_age>89,
 
 write.csv(source_h, paste("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/nsrr-prep/_releases/0.1.0/apoe-harmonized-dataset-",ver,".csv",sep=""), row.names=F,
           na = "")
-
-
-
-
-
