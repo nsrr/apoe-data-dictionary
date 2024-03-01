@@ -1,3 +1,7 @@
+## 0.2.1 (March 1, 2024)
+
+- Add display name for study visit variable
+
 ## 0.2.0 (March 1, 2024)
 
 - Add genotyping variables

@@ -1,6 +1,6 @@
 {
   "id": "visit",
-  "display_name": "",
+  "display_name": "Study Visit",
   "description": "",
   "type": "choices",
   "domain": "visit"
