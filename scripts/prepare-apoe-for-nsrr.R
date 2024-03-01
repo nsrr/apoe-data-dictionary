@@ -14,7 +14,7 @@ library(haven)
 library(dplyr)
 
 # set version
-ver <- "0.2.0.pre"
+ver <- "0.2.0"
 
 # import original data
 source_pheno <- readxl::read_excel("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/original/ApoE_study_data.xlsx")
@@ -71,7 +71,7 @@ source$visit <- 1
 source$dx_1st <- toupper(source$dx_1st)
 
 # write new dataset
-write.csv(source, paste("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/nsrr-prep/_releases/0.2.0.pre/apoe-dataset-",ver,".csv",sep=""), row.names=F,
+write.csv(source, paste("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/nsrr-prep/_releases/0.2.0/apoe-dataset-",ver,".csv",sep=""), row.names=F,
           na = "")
 
 # create harmonized dataset:
@@ -92,5 +92,5 @@ source_h$nsrr_age_gt89 <- factor(source_h$nsrr_age>89,
 
 source_h$nsrr_sex <- recode(source_h$nsrr_sex, `M` = 'male', `F` = 'female', .default = '')
 
-write.csv(source_h, paste("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/nsrr-prep/_releases/0.2.0.pre/apoe-harmonized-dataset-",ver,".csv",sep=""), row.names=F,
+write.csv(source_h, paste("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/nsrr-prep/_releases/0.2.0/apoe-harmonized-dataset-",ver,".csv",sep=""), row.names=F,
           na = "")

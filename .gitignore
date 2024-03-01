@@ -11,3 +11,6 @@
 /imports
 /source
 /graphs
+
+# R files
+.Rhistory
