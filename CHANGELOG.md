@@ -1,6 +1,7 @@
 ## 0.2.0
 
 - Add genotyping variables
+- Fix nsrr_sex representation
 - The CSV datasets generated are located here:
   - `\\rfawin.partners.org\bwh-sleepepi-nsrr-staging\20231018-mignot-apoe\nsrr-prep\_releases\0.2.0.pre`
 

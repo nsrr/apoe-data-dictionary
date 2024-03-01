@@ -1,12 +1,17 @@
 [
   {
-    "value": "F",
+    "value": "female",
     "display_name": "female",
     "description": ""
   },
   {
-    "value": "M",
+    "value": "male",
     "display_name": "male",
+    "description": ""
+  },
+  {
+    "value": "not reported",
+    "display_name": "not reported",
     "description": ""
   }
 ]

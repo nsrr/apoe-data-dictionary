@@ -90,5 +90,7 @@ source_h$nsrr_age_gt89 <- factor(source_h$nsrr_age>89,
                                  levels=c(T, F),
                                  labels=c("yes","no"))
 
+source_h$nsrr_sex <- recode(source_h$nsrr_sex, `M` = 'male', `F` = 'female', .default = '')
+
 write.csv(source_h, paste("//rfawin.partners.org/bwh-sleepepi-nsrr-staging/20231018-mignot-apoe/nsrr-prep/_releases/0.2.0.pre/apoe-harmonized-dataset-",ver,".csv",sep=""), row.names=F,
           na = "")
