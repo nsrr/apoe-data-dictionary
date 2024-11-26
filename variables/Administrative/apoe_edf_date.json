@@ -3,5 +3,5 @@
   "display_name": "Date and start time of the polysomnogram",
   "description": "Date and start time of the PSG as listed n the EDF file's header.  Note: the start date has been deidentified to the first day of that month the PSG conducted.",
   "type": "time",
-  "units": "mm-dd-yyyy hh:mm:ss"
+  "units": "mm-dd-yyyy H:mm"
 }
